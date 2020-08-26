@@ -10,14 +10,14 @@ fn main() {
   let sys = System::new_all();
 
   println!("{}", "  disks:".bright_blue());
-  println!("    {:32} {:32} {:8} {:8} {:8}", 
+  println!("    {:32} {:32} {:8} {:8}     {:8}", 
     "mount:".bright_blue(), 
     "name:".bright_blue(), 
     "fs:".bright_blue(),
     "size:".bright_blue(),
     "free:".bright_blue());
   for disk in sys.get_disks() {
-      println!("    {:32} {:32} {:8} {:8} {:8}", 
+      println!("    {:32} {:32} {:8} {:8} MB  {:8} MB", 
       disk.get_mount_point().display(),
       format!("{}", disk.get_name().to_str().unwrap()), 
       format!("{}", str::from_utf8(disk.get_file_system()).unwrap()),
