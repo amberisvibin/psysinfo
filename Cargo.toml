@@ -8,6 +8,8 @@ description = "psysinfo is a simple CLI utility that prints the sysinfo crate's 
 homepage = "https://github.com/amberisvibin/psysinfo"
 repository = "https://github.com/amberisvibin/psysinfo"
 readme = "README.md"
+categories = ["command-line-utilities"]
+keywords = ["sysinfo", "CLI"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
