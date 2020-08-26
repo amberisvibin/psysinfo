@@ -1,0 +1,15 @@
+[package]
+name = "psysinfo"
+version = "0.1.0"
+authors = ["lrzeller"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = "0.15.1"
+colored = "2.0.0"
+
+[[bin]]
+name = "psysinfo"
+path = "main.rs"
