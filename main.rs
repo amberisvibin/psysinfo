@@ -36,11 +36,11 @@ fn main() {
   println!("{}", "  processor:".bright_blue());
   println!("    {:8} {:64}", 
     "brand:".bright_blue(), 
-    sys.get_global_processor_info().get_brand());
+    sys.get_processors()[0].get_brand());
   println!("    {:8} {:<4}", 
     "cores:".bright_blue(), 
     sys.get_processors().len());
   println!("    {:8} {:<8} mHz", 
     "freq:".bright_blue(), 
-    sys.get_global_processor_info().get_frequency());
+    sys.get_processors()[0].get_frequency());
 }
