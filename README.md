@@ -1,4 +1,4 @@
-psysinfo ![Crates.io](https://img.shields.io/crates/v/psysinfo) ![Crates.io](https://img.shields.io/crates/l/psysinfo)
+psysinfo [![Crates.io](https://img.shields.io/crates/v/psysinfo)](https://crates.io/crates/psysinfo) [![Crates.io](https://img.shields.io/crates/l/psysinfo)](https://github.com/amberisvibin/psysinfo/blob/master/LICENSE)
 =====
 psysinfo is a simple CLI utility that prints the sysinfo crate's (static) info, written in Rust.
 
